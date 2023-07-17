@@ -130,6 +130,23 @@
     border-radius: 20px;
 }
 
+@media (max-width: 600px){
+    .background-radial-gradient{
+        width: 500px;
+    }
+    .project-img img{
+        width: 450px;
+    }
+}
+@media (max-width: 400px){
+    .background-radial-gradient{
+        width: 300px;
+    }
+    .project-img img{
+        width: 250px;
+    }
+}
+
 .projectList .projectTitle{
     margin: 0 auto;
     width: 160px;
