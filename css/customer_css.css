@@ -1,0 +1,166 @@
+.page-section .container .about-me{
+    /* font-weight: 900px; */
+    font-weight: 900;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.row .text-white{
+    color: black;
+}
+
+.Archiving{
+    background-color: aliceblue;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+.gitaddres{
+    text-decoration: none;
+}
+
+.Archiving .gitImage{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 200px;
+}
+
+.page-section .col-lg-4 .Archiving{
+    height: 320px;
+    /* background-color: white; */
+}
+
+.Archiving p{
+    color: black;
+    margin-left: 30px;
+    /* text-align: center; */
+}
+
+.Archiving a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.page-section .col-lg-4 .skill{
+    /* height: 280px; */
+    /* background-color: gray; */
+    margin-top: 40px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.123), 0 10px 10px rgba(0, 0, 0, 0.084);
+
+}
+
+.skill p{
+    color: black;
+    /* margin-left: 30px; */
+    text-align: center;
+}
+
+.skill .skimage{
+    /* margin-top: 30px; */
+    /* margin-bottom: 40px; */
+    width: 300px;
+    /* margin: 0 auto; */
+    display: inline-block;
+    margin-top: 40px;
+}
+.skill .skillText{
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+.skill .skillText .title{
+    font-size:30px;
+    color: rgba(98, 52, 52, 0.896);
+}
+
+.row .col-lg-4:nth-child(3), .row .col-lg-4:nth-child(5){
+    margin-left: 95px;
+}
+
+/*썸네일 애니메이션*/
+@keyframes post-ani {
+    25% {
+        transform: rotate(2deg) scale(1.01);
+    }
+
+    50% {
+        transform: rotate(0deg) scale(1);
+    }
+
+    75% {
+        transform: rotate(-2deg) scale(1.01);
+    }
+}
+
+.row .col-lg-4:hover{
+    opacity: 0.9;
+	animation: post-ani 0.8s linear 1;
+}
+
+.row .skill-title{
+    font-size: 45px;
+}
+
+.project-img img{
+   width: 500px;
+   border-radius: 15px;
+}
+
+.proTitle{
+    font-size: 37px;
+}
+
+.projectList{
+    background-color: #222;
+    padding-bottom: 120px;
+}
+.projectList h2{
+    color: white;
+    font-size: 45px;
+}
+
+.background-radial-gradient{
+    width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.projectList .projectTitle{
+    margin: 0 auto;
+    width: 160px;
+}
+
+.projectList .projectTitle p{
+    width: 160px;
+    font-size: 45px;
+    margin-bottom: 90px;
+    padding-top: 170px;
+    color: white;
+}
+
+.readmebt{
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #222;
+    border-radius: 5px;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+.readmebt:hover{
+    background-color: aliceblue;
+    color: #222;
+}
+.urlLink{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.lastP{
+    background-color: black;
+}
